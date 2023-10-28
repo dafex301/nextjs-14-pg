@@ -1,14 +1,14 @@
-'use client';
+"use client";
 
-import { CustomerField } from '@/app/lib/definitions';
-import Link from 'next/link';
+import { CustomerField } from "@/app/lib/definitions";
+import Link from "next/link";
 import {
   CheckIcon,
   ClockIcon,
   CurrencyDollarIcon,
   UserCircleIcon,
-} from '@heroicons/react/24/outline';
-import { Button } from '../button';
+} from "@heroicons/react/24/outline";
+import { Button } from "../button";
 
 export default function Form({ customers }: { customers: CustomerField[] }) {
   return (
@@ -57,7 +57,6 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
               <CurrencyDollarIcon className="pointer-events-none absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-gray-500 peer-focus:text-gray-900" />
             </div>
           </div>
-          s
         </div>
 
         {/* Invoice Status */}
